@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "dgSpecHash": "bt+Y+LJdHTAh8eJnPoIUCZSGrtHIXGo/rJTzKSmxmlqqsaqE8EikhVeTt0vkJaJ+uzFuczv9N19JyXie8cEEUw==",
+  "success": false,
+  "projectFilePath": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rnazare\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\rnazare\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\rnazare\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\rnazare\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\rnazare\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\rnazare\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://opjfrogapp01.optimaltestcorp.com/artifactory/api/nuget/nuget-local-snapshots'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://opjfrogapp01.optimaltestcorp.com/artifactory/api/nuget/nuget-local-releases'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://opjfrogapp01.optimaltestcorp.com/artifactory/api/nuget/nuget-dev-3rdparty/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.AspNetCore.OpenApi. No packages exist with this id in source(s): DevExpress 22.1 Local, Microsoft Visual Studio Offline Packages, nuget-dev-3rdparty, nuget-local-releases, nuget-local-snapshots",
+      "libraryId": "Microsoft.AspNetCore.OpenApi",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

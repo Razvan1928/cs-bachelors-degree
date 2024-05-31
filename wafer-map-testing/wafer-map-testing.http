@@ -1,0 +1,6 @@
+@wafer_map_testing_HostAddress = http://localhost:5121
+
+GET {{wafer_map_testing_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

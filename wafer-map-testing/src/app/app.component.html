@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Angular App</title>
+    <link rel="stylesheet" href="app.component.css" />
+    <!-- Link to your CSS file -->
+  </head>
+  <body>
+    <main>
+      <div>
+        <h2>Login</h2>
+        <form (ngSubmit)="onSubmit()">
+          <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" [(ngModel)]="loginData.username" name="username" required />
+          </div>
+          <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" [(ngModel)]="loginData.password" name="password" required />
+          </div>
+          <button type="submit">Login</button>
+        </form>
+        <p *ngIf="errorMessage" style="color: red;">{{ errorMessage }}</p>
+      </div>
+
+      <h2>Testing and Measurement in Silicon Wafer Manufacturing Processes</h2>
+      <label for="dieCountInput">Enter number of dies:</label>
+      <input id="dieCountInput" type="number" [(ngModel)]="dieCount" />
+      <button
+        (click)="generateWaferMap(dieCount)"
+        [disabled]="dieCount > 1000000"
+      >
+        Generate Wafer Map
+      </button>
+      <p *ngIf="dieCount > 1000000" style="color: red">
+        The number of dies cannot exceed 1 million.
+      </p>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Wafer Map Test and Measurement. All rights reserved.</p>
+    </footer>
+
+    <script src="app.component.ts"></script>
+  </body>
+</html>

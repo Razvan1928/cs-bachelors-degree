@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\wafer-map-testing.props" />
+</Project>
