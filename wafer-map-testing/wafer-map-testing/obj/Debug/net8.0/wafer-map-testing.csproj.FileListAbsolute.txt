@@ -64,3 +64,4 @@ C:\Personal\cs-bachelors-degree\wafer-map-testing\wafer-map-testing\obj\Debug\ne
 C:\Personal\cs-bachelors-degree\wafer-map-testing\wafer-map-testing\obj\Debug\net8.0\wafer-map-testing.pdb
 C:\Personal\cs-bachelors-degree\wafer-map-testing\wafer-map-testing\obj\Debug\net8.0\wafer-map-testing.genruntimeconfig.cache
 C:\Personal\cs-bachelors-degree\wafer-map-testing\wafer-map-testing\obj\Debug\net8.0\ref\wafer-map-testing.dll
+C:\Personal\cs-bachelors-degree\wafer-map-testing\wafer-map-testing\obj\Debug\net8.0\wafer-map-testing.sourcelink.json

@@ -14,15 +14,27 @@
         <form (ngSubmit)="onSubmit()">
           <div>
             <label for="username">Username:</label>
-            <input type="text" id="username" [(ngModel)]="loginData.username" name="username" required />
+            <input
+              type="text"
+              id="username"
+              [(ngModel)]="loginData.username"
+              name="username"
+              required
+            />
           </div>
           <div>
             <label for="password">Password:</label>
-            <input type="password" id="password" [(ngModel)]="loginData.password" name="password" required />
+            <input
+              type="password"
+              id="password"
+              [(ngModel)]="loginData.password"
+              name="password"
+              required
+            />
           </div>
           <button type="submit">Login</button>
         </form>
-        <p *ngIf="errorMessage" style="color: red;">{{ errorMessage }}</p>
+        <p *ngIf="errorMessage" style="color: red">{{ errorMessage }}</p>
       </div>
 
       <h2>Testing and Measurement in Silicon Wafer Manufacturing Processes</h2>
@@ -37,6 +49,9 @@
       <p *ngIf="dieCount > 1000000" style="color: red">
         The number of dies cannot exceed 1 million.
       </p>
+      <label for="dieCountInput">Enter defect detection tag:</label>
+      <input id="dieCountInput" type="string" [(ngModel)]="tag" />
+      <button (click)="changeHighlightedTag(tag)">Detection</button>
     </main>
 
     <footer>
