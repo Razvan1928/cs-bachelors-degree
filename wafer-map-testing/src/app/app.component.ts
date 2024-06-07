@@ -11,21 +11,28 @@ import { environment } from '../environments/environments';
 })
 export class AppComponent implements OnInit {
   title = 'wafer-map-testing';
-  dieCount: number = 100;
+  dieCount: number = 1000;
   loginData = { username: '', password: '' };
   errorMessage: string = '';
   apiUrl = environment.apiUrl;
   tag = '';
   lastGeneratedWafer = document.createElement(waferMapTag);
+  loginButtonClicked = false;
 
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
-    const button = document.createElement('button');
-    const div = document.createElement('div');
-    div.appendChild(button);
-    div.append(this.lastGeneratedWafer);
-    document.body.append(div);
+    const loginButton = document.getElementById('loginButton');
+    if (loginButton) {
+      loginButton.addEventListener('click', () => {
+        this.loginButtonClicked = true;
+      });
+    }
+
+    const waferMapContainer = document.getElementById('wafer-map-container');
+    if (waferMapContainer) {
+      waferMapContainer.append(this.lastGeneratedWafer);
+    }
   }
 
   onSubmit() {
@@ -40,7 +47,12 @@ export class AppComponent implements OnInit {
   }
 
   changeHighlightedTag(tag: string) {
-    this.lastGeneratedWafer.highlightedTags = [tag];
+    if (tag === "") {
+      this.lastGeneratedWafer.highlightedTags = [];
+    }
+    else {
+      this.lastGeneratedWafer.highlightedTags = [tag];
+    }
   }
 
   generateWaferMap(dieCount: number) {
@@ -82,5 +94,12 @@ export class AppComponent implements OnInit {
 
   getRandomWholeNumber(min: number, max: number): number {
     return Math.floor(Math.random() * (max - min) + min);
+  }
+
+  deleteLoginButton() {
+    const loginButton = document.getElementById('loginButton');
+    if (loginButton) {
+      loginButton.remove();
+    }
   }
 }

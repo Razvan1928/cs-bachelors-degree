@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Angular App</title>
     <link rel="stylesheet" href="app.component.css" />
-    <!-- Link to your CSS file -->
   </head>
   <body>
     <main>
       <div>
-        <h2>Login</h2>
-        <form (ngSubmit)="onSubmit()">
+        <button id="loginButton" (click)="deleteLoginButton()">Login</button>
+        <form (ngSubmit)="onSubmit()" *ngIf="loginButtonClicked">
           <div>
             <label for="username">Username:</label>
             <input
@@ -36,28 +35,25 @@
         </form>
         <p *ngIf="errorMessage" style="color: red">{{ errorMessage }}</p>
       </div>
+      <h2>Defect Detection in Silicon Wafers Manufacturing Processes</h2>
+      <div class="main-div">
+        <label for="dieCountInput">Enter number of dies:</label>
+        <input id="dieCountInput" type="number" [(ngModel)]="dieCount" />
+        <button
+          (click)="generateWaferMap(dieCount)"
+          [disabled]="dieCount > 1000000"
+        >
+          Generate Normal Wafer Map
+        </button>
+        <p *ngIf="dieCount > 1000000" style="color: red">
+          The number of dies cannot exceed 1 million.
+        </p>
+        <label for="tagInput">Enter custom defect detection tag:</label>
+        <input id="tagInput" type="text" [(ngModel)]="tag" />
+        <button (click)="changeHighlightedTag(tag)">Detection</button>
+      </div>
 
-      <h2>Testing and Measurement in Silicon Wafer Manufacturing Processes</h2>
-      <label for="dieCountInput">Enter number of dies:</label>
-      <input id="dieCountInput" type="number" [(ngModel)]="dieCount" />
-      <button
-        (click)="generateWaferMap(dieCount)"
-        [disabled]="dieCount > 1000000"
-      >
-        Generate Wafer Map
-      </button>
-      <p *ngIf="dieCount > 1000000" style="color: red">
-        The number of dies cannot exceed 1 million.
-      </p>
-      <label for="dieCountInput">Enter defect detection tag:</label>
-      <input id="dieCountInput" type="string" [(ngModel)]="tag" />
-      <button (click)="changeHighlightedTag(tag)">Detection</button>
+      <div id="wafer-map-container" class="wafer-map-container"></div>
     </main>
-
-    <footer>
-      <p>&copy; 2024 Wafer Map Test and Measurement. All rights reserved.</p>
-    </footer>
-
-    <script src="app.component.ts"></script>
   </body>
 </html>
