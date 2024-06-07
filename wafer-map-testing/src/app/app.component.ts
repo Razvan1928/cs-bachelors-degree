@@ -3,7 +3,6 @@ import { waferMapTag } from '@ni/nimble-components/dist/esm/wafer-map';
 import type { WaferMapDie } from '@ni/nimble-components/dist/esm/wafer-map/types';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '../environments/environments';
-import { Project } from '../types/types';
 
 @Component({
   selector: 'app-root',

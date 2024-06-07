@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|c:\\personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|c:\\personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\models\\wafer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|solutionrelative:models\\wafer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|c:\\personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|c:\\personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|solutionrelative:services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|c:\\personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|c:\\personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\migrations\\20240531082703_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|solutionrelative:migrations\\20240531082703_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|c:\\personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|c:\\personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\database\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|solutionrelative:database\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|c:\\personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|solutionrelative:database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|c:\\personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|c:\\personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\wafer-map-testing.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -19,44 +55,12 @@
       "RelativeMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|solutionrelative:models\\wafermapdie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|c:\\personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\models\\wafer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|solutionrelative:models\\wafer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|c:\\personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|solutionrelative:database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|c:\\personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|c:\\personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\database\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|solutionrelative:database\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|c:\\personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\migrations\\20240602071400_thirdmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|solutionrelative:migrations\\20240602071400_thirdmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|c:\\personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|c:\\personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\migrations\\20240531082703_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|solutionrelative:migrations\\20240531082703_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|c:\\personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\migrations\\20240602071221_secondmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|solutionrelative:migrations\\20240602071221_secondmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|c:\\personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|c:\\personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|c:\\personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|c:\\personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|c:\\personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35953526-173E-4CFA-A328-A6D9C4CCFC03}|wafer-map-testing.csproj|solutionrelative:services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,177 +94,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApplicationDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Database\\ApplicationDbContextFactory.cs",
-              "RelativeDocumentMoniker": "Database\\ApplicationDbContextFactory.cs",
-              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Database\\ApplicationDbContextFactory.cs",
-              "RelativeToolTip": "Database\\ApplicationDbContextFactory.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAzwAMAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T08:24:21.23Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T07:41:41.671Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-31T08:31:49.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "wafer-map-testing.csproj",
-              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\wafer-map-testing.csproj",
-              "RelativeDocumentMoniker": "wafer-map-testing.csproj",
-              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\wafer-map-testing.csproj",
-              "RelativeToolTip": "wafer-map-testing.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-31T08:02:04.838Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAUwBEAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T07:51:58.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WaferMapDie.cs",
-              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Models\\WaferMapDie.cs",
-              "RelativeDocumentMoniker": "Models\\WaferMapDie.cs",
-              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Models\\WaferMapDie.cs",
-              "RelativeToolTip": "Models\\WaferMapDie.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T07:10:40.417Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Wafer.cs",
-              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Models\\Wafer.cs",
-              "RelativeDocumentMoniker": "Models\\Wafer.cs",
-              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Models\\Wafer.cs",
-              "RelativeToolTip": "Models\\Wafer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T07:07:14.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Database\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Database\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Database\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Database\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAAA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T07:43:16.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20240602071400_ThirdMigration.cs",
-              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Migrations\\20240602071400_ThirdMigration.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240602071400_ThirdMigration.cs",
-              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Migrations\\20240602071400_ThirdMigration.cs",
-              "RelativeToolTip": "Migrations\\20240602071400_ThirdMigration.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T07:14:04.36Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Services\\AuthService.cs",
               "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Services\\AuthService.cs",
               "RelativeToolTip": "Services\\AuthService.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBEAAAADAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-31T07:44:53.045Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20240531082703_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Migrations\\20240531082703_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240531082703_InitialCreate.cs",
-              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Migrations\\20240531082703_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20240531082703_InitialCreate.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\IAuthService.cs",
+              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Services\\IAuthService.cs",
+              "RelativeToolTip": "Services\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T07:11:30.746Z"
+              "WhenOpened": "2024-05-31T07:44:32.784Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20240602071221_SecondMigration.cs",
-              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Migrations\\20240602071221_SecondMigration.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240602071221_SecondMigration.cs",
-              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Migrations\\20240602071221_SecondMigration.cs",
-              "RelativeToolTip": "Migrations\\20240602071221_SecondMigration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T07:13:11.832Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T07:06:31.265Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T07:33:14.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Models\\LoginModel.cs",
               "RelativeDocumentMoniker": "Models\\LoginModel.cs",
@@ -276,7 +130,164 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Wafer.cs",
+              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Models\\Wafer.cs",
+              "RelativeDocumentMoniker": "Models\\Wafer.cs",
+              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Models\\Wafer.cs",
+              "RelativeToolTip": "Models\\Wafer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T07:07:14.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T07:06:31.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240531082703_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Migrations\\20240531082703_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240531082703_InitialCreate.cs",
+              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Migrations\\20240531082703_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20240531082703_InitialCreate.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T07:11:30.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T07:51:58.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Database\\ApplicationDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Database\\ApplicationDbContextFactory.cs",
+              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Database\\ApplicationDbContextFactory.cs",
+              "RelativeToolTip": "Database\\ApplicationDbContextFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T08:24:21.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Database\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Database\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Database\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Database\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T07:43:16.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T07:41:41.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "wafer-map-testing.csproj",
+              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\wafer-map-testing.csproj",
+              "RelativeDocumentMoniker": "wafer-map-testing.csproj",
+              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\wafer-map-testing.csproj",
+              "RelativeToolTip": "wafer-map-testing.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-31T08:02:04.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-31T08:31:49.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WaferMapDie.cs",
+              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Models\\WaferMapDie.cs",
+              "RelativeDocumentMoniker": "Models\\WaferMapDie.cs",
+              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Models\\WaferMapDie.cs",
+              "RelativeToolTip": "Models\\WaferMapDie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T07:10:40.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20240602071400_ThirdMigration.cs",
+              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Migrations\\20240602071400_ThirdMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240602071400_ThirdMigration.cs",
+              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Migrations\\20240602071400_ThirdMigration.cs",
+              "RelativeToolTip": "Migrations\\20240602071400_ThirdMigration.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T07:14:04.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240602071221_SecondMigration.cs",
+              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Migrations\\20240602071221_SecondMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240602071221_SecondMigration.cs",
+              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Migrations\\20240602071221_SecondMigration.cs",
+              "RelativeToolTip": "Migrations\\20240602071221_SecondMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T07:13:11.832Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T07:33:14.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -285,18 +296,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-05-31T07:54:05.708Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Services\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Services\\IAuthService.cs",
-              "ToolTip": "C:\\Personal\\cs-bachelors-degree\\wafer-map-testing\\wafer-map-testing\\Services\\IAuthService.cs",
-              "RelativeToolTip": "Services\\IAuthService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T07:44:32.784Z"
             }
           ]
         }
