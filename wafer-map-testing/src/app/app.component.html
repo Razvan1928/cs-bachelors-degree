@@ -50,11 +50,11 @@
         </p>
         <label for="tagInput">Enter custom defect detection tag:</label>
         <input id="tagInput" type="text" [(ngModel)]="tag" />
-        <button (click)="changeHighlightedTag(tag)">Detection</button>
+        <button (click)="changeHighlightedTag(tag)">Detect</button>
 
         <label for="tagInput">Highlight dies bellow X yield:</label>
         <input id="tagInput" type="number" [(ngModel)]="tagAsNumber" />
-        <button (click)="changeHighlightedTagBellowYield(tagAsNumber)">Detection</button>
+        <button (click)="changeHighlightedTagBellowYield(tagAsNumber)">Detect</button>
       </div>
 
       <div id="wafer-map-container" class="wafer-map-container"></div>
