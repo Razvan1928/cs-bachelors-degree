@@ -10,7 +10,7 @@
     <main>
       <div>
         <button id="loginButton" (click)="deleteLoginButton()">Login</button>
-        <form (ngSubmit)="onSubmit()" *ngIf="loginButtonClicked">
+        <form (ngSubmit)="onSubmit()" *ngIf="loginButtonClicked && !loginSuccessful">
           <div>
             <label for="username">Username:</label>
             <input

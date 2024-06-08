@@ -18,6 +18,7 @@ export class AppComponent implements OnInit {
   tag = '';
   lastGeneratedWafer = document.createElement(waferMapTag);
   loginButtonClicked = false;
+  loginSuccessful = false;
 
   constructor(private http: HttpClient) { }
 
@@ -35,13 +36,16 @@ export class AppComponent implements OnInit {
     }
   }
 
-  onSubmit() {
+ onSubmit() {
     this.http.post(`${this.apiUrl}/Auth/login`, this.loginData).subscribe(
       () => {
         alert('Login successful!');
+        this.loginSuccessful = true;
+        this.errorMessage = '';
       },
       error => {
         this.errorMessage = 'Invalid username or password';
+        this.loginSuccessful = false;
       }
     );
   }
