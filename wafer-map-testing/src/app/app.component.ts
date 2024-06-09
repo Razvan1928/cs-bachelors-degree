@@ -99,10 +99,11 @@ export class AppComponent implements OnInit {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     const scale = 400 / Math.sqrt(this.lastGeneratedWafer.dies.length);
+    const axesScale = 450 / Math.sqrt(this.lastGeneratedWafer.dies.length);
     circles.forEach((circle: any) => {
       ctx.beginPath();
-      const scaledCircleX = circle.x * scale;
-      const scaledCircleY = circle.y * scale;
+      const scaledCircleX = circle.x * axesScale;
+      const scaledCircleY = circle.y * axesScale;
       const scaledCircleR = circle.r * scale;
       ctx.arc(scaledCircleX , scaledCircleY, scaledCircleR, 0, Math.PI * 2);
       ctx.strokeStyle = 'blue';
@@ -178,7 +179,9 @@ export class AppComponent implements OnInit {
     const centerX = radius;
     const centerY = centerX;
 
-    const scratchLine = (x: number, y: number) => Math.abs(y - (centerY + 10 * Math.sin(x / 10))) < 3;
+    const slope = 0.5;
+    const intercept = centerY - slope * centerX;
+    const scratchLine = (x: number, y: number) =>  Math.abs(y - (slope * x + intercept)) < 1;
 
     for (let i = 0; i <= sideLength; i++) {
       for (let j = 0; j <= sideLength; j++) {

@@ -49,26 +49,12 @@
         <p *ngIf="dieCount > 1000000" style="color: red">
           The number of dies cannot exceed 1 million.
         </p>
-        <label for="dieCountInput">Enter number of dies:</label>
-        <input id="dieCountInput" type="number" [(ngModel)]="dieCount" />
-        <button
-          (click)="generateScratchedWaferMap(dieCount)"
-          [disabled]="dieCount > 1000000"
-        >
-          Generate Scratched Wafer Map
-        </button>
-        <p *ngIf="dieCount > 1000000" style="color: red">
-          The number of dies cannot exceed 1 million.
-        </p>
-        <label for="dieCountInput">Enter number of dies:</label>
-        <input id="dieCountInput" type="number" [(ngModel)]="dieCount" />
         <button
           (click)="generateDonutWaferMap(dieCount)"
           [disabled]="dieCount > 1000000"
         >
           Generate Donut Wafer Map
         </button>
-        <button (click)="detectHoughLines()">Detect Hough Lines</button>
         <button (click)="detectHoughCircles()">Detect Hough Circles</button>
         <p *ngIf="dieCount > 1000000" style="color: red">
           The number of dies cannot exceed 1 million.
