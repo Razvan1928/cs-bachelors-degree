@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Angular App</title>
     <link rel="stylesheet" href="app.component.css" />
+    <script async src="https://docs.opencv.org/4.5.2/opencv.js" type="text/javascript"></script>
   </head>
   <body>
     <main>
@@ -48,6 +49,30 @@
         <p *ngIf="dieCount > 1000000" style="color: red">
           The number of dies cannot exceed 1 million.
         </p>
+        <label for="dieCountInput">Enter number of dies:</label>
+        <input id="dieCountInput" type="number" [(ngModel)]="dieCount" />
+        <button
+          (click)="generateScratchedWaferMap(dieCount)"
+          [disabled]="dieCount > 1000000"
+        >
+          Generate Scratched Wafer Map
+        </button>
+        <p *ngIf="dieCount > 1000000" style="color: red">
+          The number of dies cannot exceed 1 million.
+        </p>
+        <label for="dieCountInput">Enter number of dies:</label>
+        <input id="dieCountInput" type="number" [(ngModel)]="dieCount" />
+        <button
+          (click)="generateDonutWaferMap(dieCount)"
+          [disabled]="dieCount > 1000000"
+        >
+          Generate Donut Wafer Map
+        </button>
+        <button (click)="detectHoughLines()">Detect Hough Lines</button>
+        <button (click)="detectHoughCircles()">Detect Hough Circles</button>
+        <p *ngIf="dieCount > 1000000" style="color: red">
+          The number of dies cannot exceed 1 million.
+        </p>
         <label for="tagInput">Enter custom defect detection tag:</label>
         <input id="tagInput" type="text" [(ngModel)]="tag" />
         <button (click)="changeHighlightedTag(tag)">Detect</button>
@@ -58,6 +83,7 @@
       </div>
 
       <div id="wafer-map-container" class="wafer-map-container"></div>
+      <canvas id="waferMapCanvas" width="800" height="800" style="transform: translateY(-520px);"></canvas>
     </main>
   </body>
 </html>

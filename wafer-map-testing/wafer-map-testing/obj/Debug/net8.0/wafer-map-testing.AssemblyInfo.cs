@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("wafer-map-testing")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8752ef09a6d573c163365206099abbdef0d8c5cf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b5c97421a0c2167ca5da99caf2cdc0df73b5178")]
 [assembly: System.Reflection.AssemblyProductAttribute("wafer-map-testing")]
 [assembly: System.Reflection.AssemblyTitleAttribute("wafer-map-testing")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { WaferMap, waferMapTag } from '@ni/nimble-components/dist/esm/wafer-map';
+import { waferMapTag } from '@ni/nimble-components/dist/esm/wafer-map';
 import type { WaferMapDie } from '@ni/nimble-components/dist/esm/wafer-map/types';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '../environments/environments';
@@ -15,6 +15,7 @@ export class AppComponent implements OnInit {
   loginData = { username: '', password: '' };
   errorMessage: string = '';
   apiUrl = environment.apiUrl;
+  pythonApi = environment.pythonApi;
   tag = '';
   tagAsNumber: number = 0;
   lastGeneratedWafer = document.createElement(waferMapTag);
@@ -51,12 +52,70 @@ export class AppComponent implements OnInit {
     );
   }
 
+  detectHoughLines() {
+    const waferMapData = this.lastGeneratedWafer.dies;
+    this.http.post(`${this.pythonApi}/hough_lines`, waferMapData).subscribe(
+      (lines: any) => {
+        this.drawLines(lines);
+      }
+    );
+  }
+
+  detectHoughCircles() {
+    const waferMapData = this.lastGeneratedWafer.dies;
+    this.http.post(`${this.pythonApi}/hough_circles`, waferMapData).subscribe(
+      (circles: any) => {
+        this.drawCircles(circles);
+      }
+    );
+  }
+
+  drawLines(lines: any) {
+    const canvas = document.getElementById('waferMapCanvas') as HTMLCanvasElement;
+    if (!canvas) return;
+
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return;
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear previous lines
+
+    lines.forEach((line: any) => {
+      ctx.beginPath();
+      ctx.moveTo(line.x1, line.y1);
+      ctx.lineTo(line.x2, line.y2);
+      ctx.strokeStyle = 'red';
+      ctx.lineWidth = 2;
+      ctx.stroke();
+    });
+  }
+
+  drawCircles(circles: any) {
+    const canvas = document.getElementById('waferMapCanvas') as HTMLCanvasElement;
+    if (!canvas) return;
+
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return;
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    const scale = 400 / Math.sqrt(this.lastGeneratedWafer.dies.length);
+    circles.forEach((circle: any) => {
+      ctx.beginPath();
+      const scaledCircleX = circle.x * scale;
+      const scaledCircleY = circle.y * scale;
+      const scaledCircleR = circle.r * scale;
+      ctx.arc(scaledCircleX , scaledCircleY, scaledCircleR, 0, Math.PI * 2);
+      ctx.strokeStyle = 'blue';
+      ctx.lineWidth = 4;
+      ctx.stroke();
+    });
+  }
+
   changeHighlightedTagBellowYield(tag: number) {
     if (tag === null || tag === undefined || tag === 0) {
       this.lastGeneratedWafer.highlightedTags = [];
-    }
-    else {
-      if(this.lastGeneratedWafer.highlightedTags){
+    } else {
+      if (this.lastGeneratedWafer.highlightedTags) {
         this.lastGeneratedWafer.highlightedTags = [];
       }
       for (var i = 0; i <= tag; i++) {
@@ -68,8 +127,7 @@ export class AppComponent implements OnInit {
   changeHighlightedTag(tag: string) {
     if (tag === "") {
       this.lastGeneratedWafer.highlightedTags = [];
-    }
-    else {
+    } else {
       this.lastGeneratedWafer.highlightedTags = [tag];
     }
   }
@@ -89,12 +147,84 @@ export class AppComponent implements OnInit {
     const radius = sideLength / 2;
     const centerX = radius;
     const centerY = centerX;
+
     for (let i = 0; i <= sideLength; i++) {
       for (let j = 0; j <= sideLength; j++) {
         const distance = Math.sqrt((i - centerX) ** 2 + (j - centerY) ** 2);
         if (distance <= radius) {
           const tags = this.getRandomTags();
-          const randomNumber = this.getRandomWholeNumber(1, 100);
+          var randomNumber = this.getRandomWholeNumber(1, 100);
+          tags.push(randomNumber.toString());
+          wafermapDieSet.push({ x: i, y: j, value: `${randomNumber}`, tags: tags });
+        }
+      }
+    }
+    return wafermapDieSet;
+  }
+
+  generateScratchedWaferMap(dieCount: number) {
+    const waferMapDies = this.generateScratchedDies(dieCount);
+    this.lastGeneratedWafer.dies = waferMapDies;
+    this.lastGeneratedWafer.colorScale = {
+      colors: ['red', 'orange', 'yellow', 'green'],
+      values: ['1', '33', '66', '100']
+    };
+  }
+
+  generateScratchedDies(diesCount: number): WaferMapDie[] {
+    const wafermapDieSet: WaferMapDie[] = [];
+    const sideLength = Math.sqrt(diesCount / Math.PI) * 2;
+    const radius = sideLength / 2;
+    const centerX = radius;
+    const centerY = centerX;
+
+    const scratchLine = (x: number, y: number) => Math.abs(y - (centerY + 10 * Math.sin(x / 10))) < 3;
+
+    for (let i = 0; i <= sideLength; i++) {
+      for (let j = 0; j <= sideLength; j++) {
+        const distance = Math.sqrt((i - centerX) ** 2 + (j - centerY) ** 2);
+        if (distance <= radius) {
+          const tags = this.getRandomTags();
+          var randomNumber = this.getRandomWholeNumber(1, 100);
+          if (scratchLine(i, j)) {
+            randomNumber = 0;
+          }
+          tags.push(randomNumber.toString());
+          wafermapDieSet.push({ x: i, y: j, value: `${randomNumber}`, tags: tags });
+        }
+      }
+    }
+    return wafermapDieSet;
+  }
+
+  generateDonutWaferMap(dieCount: number) {
+    const waferMapDies = this.generateDonutDies(dieCount);
+    this.lastGeneratedWafer.dies = waferMapDies;
+    this.lastGeneratedWafer.colorScale = {
+      colors: ['red', 'orange', 'yellow', 'green'],
+      values: ['1', '33', '66', '100']
+    };
+  }
+
+  generateDonutDies(diesCount: number): WaferMapDie[] {
+    const wafermapDieSet: WaferMapDie[] = [];
+    const sideLength = Math.sqrt(diesCount / Math.PI) * 2;
+    const radius = sideLength / 2;
+    const centerX = radius;
+    const centerY = centerX;
+
+    for (let i = 0; i <= sideLength; i++) {
+      for (let j = 0; j <= sideLength; j++) {
+        const distance = Math.sqrt((i - centerX) ** 2 + (j - centerY) ** 2);
+        if (distance <= radius / 2 && distance >= radius / 4) {
+          const tags = this.getRandomTags();
+          var randomNumber = 0;
+          tags.push(randomNumber.toString());
+          wafermapDieSet.push({ x: i, y: j, value: `${randomNumber}`, tags: tags });
+        }
+        else if (distance <= radius) {
+          const tags = this.getRandomTags();
+          var randomNumber = this.getRandomWholeNumber(1, 100);
           tags.push(randomNumber.toString());
           wafermapDieSet.push({ x: i, y: j, value: `${randomNumber}`, tags: tags });
         }
